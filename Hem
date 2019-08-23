@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <link rel="stylesheet" href="Justyles.css">
+  <title>Juliana</title>
+
+</head>
+<body>
+
+
+<h1><em><strong>Juliana Johansson Braga</strong></em></h1>
+<img src="foto1.jpg" style="float:right; padding:20px">
+
+<p style="font-family:verdana; font-size:20px; margin:30px; text-align: justify; padding:20px">Föddes i 22 februari 1985, flyttat till Sverige i 2016. En motiverad och välorganiserad ekonomiassistent med 5 års erfarenhet inom företag i olika segment. Med erfarenhet i leverantörskonto, kundkonton och finansiell analys.
+Tidigare har jag arbetat med alltifrån administration till marknadsanalys. Jag är engagerad, noggrann, ansvarsfull, tålmodig och flexibel. Jag ser fram emot att få möjlighet att bidra med tillväxten av företaget och min fortsatta utveckling.</p>
+<a href="Jukontakt.html", style="padding:10px; background-color: MediumAquaMarine; display: inline-block">Kontakt</a>
+<a href="Jukontakt.html">
+  <img src="face.png" style="width:42px;height:42px;border:0">
+</a>
+
+<footer>
+  <p>@Juliana</p>
+</footer>
+</body>
+</html>
