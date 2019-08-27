@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <link rel="stylesheet" href="Justyles.css">
+  <title>Juliana</title>
+
+</head>
+<body>
+
+
+<h1><em><strong>Krisztina Kukity</strong></em></h1>
+<img src="foto1.jpg" style="float:right; padding:20px">
+
+<p style="font-family:verdana; font-size:20px; margin:30px; text-align: justify; padding:20px">About me
+<br>Clothes  for me were always a way to communicate and express myself.What we wear and how we wear it describes and presents us in a certain way to the world around us. I have a stylist and coach diploma so I can help You better.
+<br>I have worked with communication and conflict management in multi environment for decades  and I have seen the impact what a perfectly put togeher outfit can have. I have helped people to find their style and to show a better version of themselves. What was special about the clothes I chose were that they all came from second hand shops. 
+<br>My mission is to show people that they can have stylish and appropiate clothes from second hand stores. Slow fashion is the future! (you can find more about slow fashion if you click HERE) 
+<br>What motivates me is to see the sparkle in my clients eyes after a styling session. You will look and feel younger and skinnier instantly in your new clothes that we choose together.  All thanks to a dress that fits perfectly. I will help You find the right color for your skin and hair tones, the right fit, the perfect dress for any occasion. I can also help with organising your wardrobe or we can even build you a new one. Read about all my services HERE.
+</p>
+<a href="Jukontakt.html", style="padding:10px; background-color: MediumAquaMarine; display: inline-block">Kontakt</a>
+<a href="Jukontakt.html">
+  <img src="face.png" style="width:42px;height:42px;border:0">
+</a>
+<p> this is fashion </p>
+<footer>
+  <p>@Juliana</p>
+</footer>
+</body>
+</html>
