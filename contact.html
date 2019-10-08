@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Krisztina Kukity stylist and personal shopper">
+    <meta name="keywords" content="stylist, slow fashion, personal shopper, fashion, clothes,sustainability">
+    <meta name="author" content="#">
+    <title>Kriszta Dorka | Welcome</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--facebook icon-->
+    <script src="https://kit.fontawesome.com/46008457d3.js" crossorigin="anonymous"></script>
+    <!--our css-->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+<body>
+<!--Navbar-->
+<nav class="navbar">
+  <div>
+    <div class="navbar-header">
+      <div class="navbarlogo">
+      <a href="index.html"><img src="./img/oplogo.gif" alt="logo"></a>
+      </div>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav">
+        <li class="listhome"><a href="index.html">Home</a></li>
+        <li class="listborderleft"><a href="slowfashion.html">Slow Fashion</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="stylist.html">Styling Services</a></li>
+        <li><a href="coach.html">Coaching</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Header-->
+<header>
+  <a href="index.html">
+    <img src="./img/logo.png" alt="logo" id="logo">
+  </a>
+</header>
+
+<!--Contact form-->
+<article>
+ 
+  <div class="page">
+    <div class="articledetail ">
+      <div class="myphoto">
+        <img src="./img/KK.jpg" alt="Krisztina Kukity">
+      </div>
+      <h1 class="mobiltitle">Contact Me</h1>
+      <div>
+        <p><b>Krisztina Kukity</b></p>
+        <p>Telephone : 076 567 18 89</p>
+        <p>E-mail : Krisztina@gmail.com</p>
+      </div>
+    </div>
+    <div class="contactinput">
+      <h1 class="pagetitle">Send Me A Message!</h1>
+      <h2 class="mobiltitle">Send Me A Message!</h2>
+      <form id="form" name="form" method="post" action="http://www.softstudio.se/sendEmail.php">
+        <input type="hidden" name="to" value="@gmail.com">
+
+        <label for="name">Name:</label> <br>
+        <input type="text" name="name" id="name" placeholder="Your name..." required> <br>
+
+        <label for="from">E-mail</label> <br/>
+        <input type="email" id="from" name="from" placeholder="Your e-mail.." required><br>
+
+        <label for="message" >Message:</label> <br>
+        <textarea name="message" id="message" placeholder="Your message..." cols="60" rows="10" maxlength="500" ></textarea> <br>
+
+        <input type="submit" name="skicka" id="skicka" value="Send message" onclick="alert('Thank you for contacting me!')">
+
+        </form>
+    </div>
+  </div>
+</article>
+
+<!--Footer-->
+<footer>
+  <div>
+    <a href="contact.html"><i class="fab fa-facebook-square"></i></a>
+    <a href="contact.html"><i class="fab fa-instagram"></i></a>
+  </div>
+  <p>Kriszta Dorka Copyright &copy; 2019 </p>
+</footer>
+
+  </body>
+</html>
