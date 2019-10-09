@@ -16,11 +16,11 @@ html{
   height: 100%;
 }
 body{
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', 'verdana', 'arial', sans-serif;
   font-size: 16px;
   margin:0;
   padding:0;
-  background-color: aliceblue;
+  background-color: #fcf3ed;
   height: 100%;
 }
 
@@ -75,7 +75,7 @@ img{
   padding: 20px 30px;
 }
 article{
-  background-color:#fcf3ed;
+  background-color: #fcf3ed;
   margin: 0 auto;
   padding: 10px 20px;
 }
@@ -111,12 +111,10 @@ section a:hover {
   max-width: 100%;
   width: 1680px;
   flex-flow: column;
-  padding: 15px;
-    
+  padding: 15px;    
 }
 .articletext{
-  text-align: justify;
-    
+  text-align: justify;    
 }
 .articlefashion{
   width: 2400px;
@@ -236,14 +234,9 @@ input[type=submit] {
     float: none;
     height: 315px;
     padding: 0;
-    margin-bottom: 12px;
-    
-  }
-  
+    margin-bottom: 12px;    
+  }  
 }
-
-
-
 
 /* --------Navbar----------*/
 .nav a:link, .nav a:visited{
@@ -257,8 +250,9 @@ input[type=submit] {
   max-width: 100%;
   background-color:#3c3d47;
   border-radius: 0px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', 'verdana', sans-serif;
   text-transform: uppercase;
+  font-size: 14px;
 }
 .navbar-header button{
   display: none;
