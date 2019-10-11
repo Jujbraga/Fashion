@@ -308,7 +308,7 @@ footer{
   text-align: center;
   color: #ffe0ce;
   position:absolute;
-  max-height:auto;
+  height:auto;
   bottom: 0;
 }
 footer i {
