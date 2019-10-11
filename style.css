@@ -33,6 +33,9 @@ h3{
   padding: 0;
   margin-top: 0;
 }
+.mobiltitle,#aboutmepic{
+    display: none;
+  }
 p{
   margin: 8px 0;
 }
@@ -44,7 +47,7 @@ img{
 }
 #slowdesignpic{
   width: 600px;
-  padding: 0 0 20px 30px;
+  padding:0 0 20px 30px;
   float: right;
   margin: 0 auto;
 }
@@ -86,24 +89,27 @@ section a:hover {
   margin: 0 auto;
 }
 .articledetail{
-  max-width: 100%;
   width: 720px;
-  flex-flow: column;
-  text-align: center;
   padding: 15px;
-}
-.articletext,.contactinput{
   max-width: 100%;
+  text-align: center;
+}
+.contactinput{
   width: 1680px;
-  flex-flow: column;
-  padding: 15px;    
+  padding: 15px; 
+  max-width: 100%;
 }
 .articletext{
-  text-align: justify;    
+  width: 1680px;
+  padding: 15px;
+  max-width: 100%;
+  text-align: justify; 
 }
 .articlefashion{
   width: 2400px;
-  padding: 10px;
+  padding: 15px;
+  max-width: 100%;
+  text-align: justify; 
 }
  .shadow {
   position: relative;
@@ -149,23 +155,19 @@ input[type=submit] {
 @media only screen and (max-width:767px) {
   h1{
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 24px;
   }
   h2{
     margin: 0;
-    font-size: 20px;
+    font-size: 22px;
   }
   h3{
     font-size: 18px;
     }
   section,.page,.articledetail,.articletext,.articlefashion{
     display: block;
-    width: 100%;
     padding: 10px;
     margin: 0 auto;
-  }
-  #profilphoto,.contactinput{
-    padding: 10px;
   }
   #coachphoto{
     float: none;
@@ -181,13 +183,17 @@ input[type=submit] {
    -webkit-box-shadow: none;
    box-shadow:none;
  }
-  .pagetitle,.myphoto{
+  #profilphoto,.contactinput{
+    padding: 10px;
+  }
+  .myphoto,.pagetitle{
     display: none;
   }
-    .mobiltitle,#aboutmepic{
+  .mobiltitle,#aboutmepic{
     display: block;
   }
 }
+
 @media only screen and (max-width:920px) {
   #slowdesignpic{
     float: none;
@@ -302,7 +308,7 @@ footer{
   text-align: center;
   color: #ffe0ce;
   position:absolute;
-  height: auto;
+  max-height:auto;
   bottom: 0;
 }
 footer i {
@@ -310,3 +316,4 @@ footer i {
   font-size: 18px;
   padding: 0 5px 5px;
 }
+
