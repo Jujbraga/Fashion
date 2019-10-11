@@ -184,10 +184,8 @@ input[type=submit] {
   .pagetitle,.myphoto{
     display: none;
   }
-}
-@media only screen and (min-width:768px){
-  .mobiltitle,#aboutmepic{
-    display: none;
+    .mobiltitle,#aboutmepic{
+    display: block;
   }
 }
 @media only screen and (max-width:920px) {
