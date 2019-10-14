@@ -63,7 +63,7 @@ img{
 }
 article{
   background-color: #fcf3ed;
-  margin: 0 auto;
+  margin: 0 100px;
   padding: 10px 20px;
   padding-bottom: 100px;
 }
@@ -151,7 +151,21 @@ input[type=submit] {
   cursor: pointer;
   float: right;
 }
-
+@media only screen and (max-width:1120px) {
+  article{
+    margin: 0 20px;
+  }
+  #slowdesignpic{
+    float: none;
+    padding: 12px 0;
+  }
+  iframe{
+    float: none;
+    height: 315px;
+    padding: 0;
+    margin-bottom: 12px;    
+  }  
+}
 @media only screen and (max-width:767px) {
   h1{
     margin-top: 10px;
@@ -164,6 +178,7 @@ input[type=submit] {
   h3{
     font-size: 18px;
     }
+  article{margin: 0;}
   section,.page,.articledetail,.articletext,.articlefashion{
     display: block;
     padding: 10px;
@@ -194,18 +209,6 @@ input[type=submit] {
   }
 }
 
-@media only screen and (max-width:920px) {
-  #slowdesignpic{
-    float: none;
-    padding: 12px 0;
-  }
-  iframe{
-    float: none;
-    height: 315px;
-    padding: 0;
-    margin-bottom: 12px;    
-  }  
-}
 
 /* --------Navbar----------*/
 .nav a:link, .nav a:visited{
